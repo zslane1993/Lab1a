@@ -9,7 +9,7 @@ class MainClass {
     Console.WriteLine ("Enter the price");
     var y = Console.ReadLine();
     int x1 = Convert.ToInt32(x);
-    int y1 = Convert.ToInt32(y);
+    double y1 = Convert.ToDouble(y);
     Console.WriteLine ("Total price of apple =");
     Console.WriteLine (x1*y1);
   }
